@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General [Beta]</title>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    
+    <header>
+      <div class="left_area">
+        <h3>Vallt<span> Bot</span> | <span style="color: rgb(245, 81, 81); font-size: 15px;">[ Beta Design ]</span></h3>
+      </div>
+      <div class="right_area">
+        <a href="#" class="logout_btn" onclick="loga()">Logout</a>
+      </div>
+    </header>
+    <div class="mobile_nav">
+      <div class="nav_bar">
+        <i class="fa fa-bars nav_btn"></i>
+      </div>
+      <div class="mobile_nav_items">
+        <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="#"><i class="fas fa-terminal"></i><span>Commands</span></a>
+        <a href="#"><i class="fas fa-link"></i><span>Invite</span></a>
+        <a href="#"><i class="fas fa-headset"></i><span>Support</span></a>
+      </div>
+    </div>
+    <div class="contain">
+        <ceneter>
+          <img src="https://cdn.discordapp.com/icons/490128620937936906/a_e443f4cc5c9b1d61bd6a2e3e21ba4523.webp">
+          <h1 style="color:  #dbdbdb;">Comming Soon (Server Name)</h1>
+          <br>
+          <button type="button" class="btn btn-outline-danger" onclick="alr()">Kick Bot</button>
+          <br><br><br>
+          <div style="display: inline-block;">
+            <h2 style="color: rgb(196, 189, 189);">Prefix</h2>
+            <br>
+            <input type="text" style="border-radius: 4px;">
+          </div>   
+          &nbsp;&nbsp;&nbsp;
+          <div style="display: inline-block;">
+            <h2 style="color: rgb(196, 189, 189);">Language</h2>
+            <br>
+              <select class="custom-select" id="inputGroupSelect03" style="background-color: #353535; color: #ffffff; border: solid 2pxrgb(35, 155, 211);">
+                <option selected>Choose</option>
+                <option value="1">Arabic</option>
+                <option value="2">English</option>
+                <option value="3">Turkish</option>
+              </select>
+          </div>
+        </ceneter>
+        <br>
+        <div class="cont-2">
+          <br>
+          <hr style="border: solid 1px rgb(192, 192, 192);">
+        </div>
+        <div>
+          <br>
+          <button type="button" class="btn btn-secondary" style="background-color: #525151;"><a href="General.html" style="color: #ffffff; text-decoration: none;">General</a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" class="btn btn-secondary"><a href="Moderation" style="color: #ffffff; text-decoration: none;">Moderation</a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" class="btn btn-secondary"><a href="fun" style="color: #ffffff; text-decoration: none;">Fun</a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" class="btn btn-secondary"><a href="Utilti" style="color: #ffffff; text-decoration: none;">Ultits</a></button>
+          </div>  
+          
+          <center>
+            <div class="main-container">
+                <div class="head-titles">
+                <br><br><br><br>
+                <h1>General</h1>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+                </label>
+            </div>
+                <br>
+                <div class="collapsible">
+                    <h2>?Ping <span class="content-span">-&nbsp; Show bot ping</span> <button type="button" class="btn btn-warning" style="float: right; margin-right: 10px; width: 80px;">Edit</button>
+                        <label class="switch sw-cm" style="display: inline-block;">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                            </label>
+                    </h2>
+                </div>
+                <br>
+                <div class="collapsible">
+                    <h2>?Bot <span class="content-span">-&nbsp; Show bot description </span> <button type="button" class="btn btn-warning" style="float: right; margin-right: 10px; width: 80px;">Edit</button>
+                        <label class="switch sw-cm" style="display: inline-block;">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                            </label>
+                    
+                    </h2>
+                </div>
+                <br>
+                <div class="collapsible">
+                    <h2>?Help <span class="content-span">-&nbsp; To Show the bot help</span> <button type="button" class="btn btn-warning" style="float: right; margin-right: 10px; width: 80px;">Edit</button>
+                        <label class="switch sw-cm" style="display: inline-block;">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                            </label>
+                    
+                    </h2>
+                </div>
+                <br>
+                <div class="collapsible">
+                    <h2>Soon <span class="content-span">-&nbsp; command description</span> <button type="button" class="btn btn-warning" style="float: right; margin-right: 10px; width: 80px;">Edit</button>
+                        <label class="switch sw-cm" style="display: inline-block;">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                            </label>
+                    
+                    </h2>
+                </div>
+                <br>
+                <div class="collapsible">
+                    <h2>Soon <span class="content-span">-&nbsp; command description</span> <button type="button" class="btn btn-warning" style="float: right; margin-right: 10px; width: 80px;">Edit</button>
+                        <label class="switch sw-cm" style="display: inline-block;">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                            </label>
+                    
+                    </h2>
+                </div>
+                <br>
+                <div class="collapsible">
+                    <h2>Soon <span class="content-span">-&nbsp; command description</span> <button type="button" class="btn btn-warning" style="float: right; margin-right: 10px; width: 80px;">Edit</button>
+                        <label class="switch sw-cm" style="display: inline-block;">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                            </label>
+                    </h2>
+                </div>
+                <br>   
+                <br>     
+        </div>       
+    </center>
+        <br><br>
+        <hr style="border: solid 1px rgb(192, 192, 192); width: 81%;">
+        <br><br>
+    
+    <div class="footer">
+        <h5>© 2020 All Rights Reserved</h5>
+        <a href="#">Support</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://vbotv.xyz/">Home</a>
+        <br><br>
+    </div>
+    </div>
+    
+    <script type="text/javascript">
+
+    function alr(){
+        Swal.fire({
+        title: 'Are you sure you want to kick the bot?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, kick it!'
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire(
+      'Bot has been kicked!',
+      '',
+      'success'
+    )
+  }
+})
+    }
+
+
+    function loga(){
+        Swal.fire({
+        title: 'Are you sure you want to logout ?',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes , Log me out'
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire(
+      'You has been logged out!',
+      '',
+      'success'
+    )
+  }
+})
+    }
+    </script>
+  </body>
+</html>
+                           
